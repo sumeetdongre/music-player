@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet/music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c5866de42a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img id="ninja-icon" src="./assets/ninjastudio.jpg" alt="">
+        <h4 id="Favourites"><b>Favourites</b></h4>
+        <span id="noti-btn"><i class="fa fa-bell"></i></span>
+        <img id="profile-image" src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg">
+    </header>
+
+
+    <!-- ASIDE SECTION  -->
+    <aside>
+        <!-- QUEUE -->
+        <h3 id="queue"><b>Queue</b></h3>
+        <span id="small-queue">Queue</span>
+        <div id="queuelist">
+            <span id="queueno">1</span>
+            <span id="queue-image"><img src="./assets/crop_175x175_1581403268_3024921.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Goa Beach</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">2</span>
+            <span id="queue-image"><img src="./assets/crop_175x175_2465302.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Vaaste</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">3</span>
+            <span id="queue-image"><img src="./assets/queue3.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Filhal</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">4</span>
+            <span id="queue-image"><img src="./assets/queue4.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Superstar</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">5</span>
+            <span id="queue-image"><img src="./assets/queue5.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Haan Main</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">6</span>
+            <span id="queue-image"><img src="./assets/queue6.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Haan Main</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">6</span>
+            <span id="queue-image"><img src="./assets/queue7.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>kalla Sonha</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">7</span>
+            <span id="queue-image"><img src="./assets/queue8.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Jinke Liye</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">8</span>
+            <span id="queue-image"><img src="./assets/queue9.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Bhula</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">9</span>
+            <span id="queue-image"><img src="./assets/queue10.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Kuch Bhi</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">10</span>
+            <span id="queue-image"><img src="./assets/queue11.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Manjha</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">11</span>
+            <span id="queue-image"><img src="./assets/queue12.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Loca</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">12</span>
+            <span id="queue-image"><img src="./assets/queue13.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Lal Chunariya</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">13</span>
+            <span id="queue-image"><img src="./assets/queue14.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Move</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">14</span>
+            <span id="queue-image"><img src="./assets/queue15.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Machange</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">15</span>
+            <span id="queue-image"><img src="./assets/queue16.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Shayad</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+        <div id="queuelist">
+            <span id="queueno">16</span>
+            <span id="queue-image"><img src="./assets/queue17.jpg"></span>
+            <a href="./playlist.html"><span id="songname"><b>Muskurayega India</b></span></a>
+            <span id="heart-icon"><i class="fa fa-heart-o"></i></span>
+        </div>
+    </aside>
+
+
+    <!-- main -->
+    <main>
+
+        <!-- ALBUMS -->
+        <section id="albums">
+            <div id="music-album">
+                <div id="image1"><a href="./playlist.html"><img src="./assets/maxresdefault.jpg"></a></div>
+                <div id="image1"><a href="./playlist.html"><img src="./assets/front second.jpg"></a></div>
+                <div id="image1"><a href="./playlist.html"><img src="./assets/mainfront 3.jpg"></a></div>
+            </div>
+        </section>
+
+        <!-- LATEST RELEASE -->
+        <section id="latest-release">
+            <h2><b>Latest Release</b></h2>
+            <div id="latest-release-container">
+                <div id="song-container">
+                    <div id="song-left-container">
+                        <img src="./assets/sinatra.png" width="100%">
+                    </div>
+                    <div id="song-right-container">
+                        <div id="button-container">
+                            <span style="font-size: 1.5em; color: white;">...</span>
+                        </div>
+                        <div id="song-name">
+                            <div id="song-name-left">
+                                <span style="margin-left: 5px; color: white;">Sinatra</span>
+                            </div>
+                            <div id="song-name-right; color:white;">
+                                <span style="color: white; margin-right: 63px ;">2:52</span>
+                            </div>
+                        </div>
+                        <div id="song-date">
+                            <span style="margin-left: 5px; color: white; ">AUG 14,2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="song-container">
+                    <div id="song-left-container">
+                        <img src="./assets/yoshimi.png" width="100%">
+                    </div>
+                    <div id="song-right-container">
+                        <div id="button-container">
+                            <span style="font-size: 1.5em; color: white;">...</span>
+                        </div>
+                        <div id="song-name">
+                            <div id="song-name-left">
+                                <span style="margin-left: 5px; text-align:justify; color: white;">Yoshimi Pink Robot</span>
+                            </div>
+                            <div id="song-name-right">
+                                <span style="color: white;">6:19</span>
+                            </div>
+                        </div>
+                        <div id="song-date">
+                            <span style="margin-left: 5px; color:white;">AUG 14,2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="song-container">
+                    <div id="song-left-container">
+                        <img src="./assets/citySlums.png" width="100%">
+                    </div>
+                    <div id="song-right-container">
+                        <div id="button-container">
+                            <span style="font-size: 1.5em; color: white;">...</span>
+                        </div>
+                        <div id="song-name">
+                            <div id="song-name-left">
+                                <span style="margin-left: 5px;color: white;">City Slums</span>
+                            </div>
+                            <div id="song-name-right">
+                                <span style="color: white;">3:48</span>
+                            </div>
+                        </div>
+                        <div id="song-date">
+                            <span style="margin-left: 5px; color: white;">AUG 14,2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="song-container">
+                    <div id="song-left-container">
+                        <img src="./assets/lover.png" width="100%">
+                    </div>
+                    <div id="song-right-container">
+                        <div id="button-container">
+                            <span style="font-size: 1.5em; color: white;">...</span>
+                        </div>
+                        <div id="song-name">
+                            <div id="song-name-left">
+                                <span style="margin-left: 5px; color: white;">Lover</span>
+                            </div>
+                            <div id="song-name-right">
+                                <span style="color: white;">3:41</span>
+                            </div>
+                        </div>
+                        <div id="song-date">
+                            <span style="margin-left: 5px; color: white;">AUG 14,2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- music player -->
+            <div class="bottom-music-player">
+                <div class="container-1">
+                    <div class="bottom-music-player-play-icons">
+                        <a href="#"><i class="fas fa-random fa-lg"></i></a>
+                        <a href="#"><i class="fas fa-backward fa-lg"></i></a>
+                        <a href="#" class="play-link"> <i><i class="fas fa-play fa-lg play"></i><i class="fas fa-pause fa-lg"></i> </i></a>
+                        <a href="#"><i class="fas fa-backward fa-lg"></i></a>
+                        <a href="#"><i class="fas fa-retweet fa-lg"></i></a>
+                    </div>
+                    <div class="container-2">
+                        <div class="bottom-music-player-sub-middle">
+                            <div class="bottom-music-player-image">
+                                <img src="./assets/musicplayerpic.jpg" width="80%" height="100%" style="border-top-left-radius: 8px; border-bottom-left-radius: 8px;">
+                            </div>
+                            <div class="bottom-music-player-name">
+                                <div style="font-size: 1.2em; font-family: sans-serif;color:white">Chull</div>
+                                <div style="font-size: 0.8em;color: white;">Fazilpuria</div>
+                            </div>
+                            <!-- <div class="bottom-music-player-left-icon">
+                                <i class="far fa-heart icon-margin-2px"></i>
+                                <i class="far fa-thumbs-down icon-margin-2px"></i>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="bar-status">
+                        <span style="font-size: 0.8em; color: azure;">2:34</span>
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        <span style="font-size: 0.8em; color: azure;">3:05</span>
+                    </div>
+                </div>
+        </section>
+
+        <!-- POPULAR ARTIST SECTION -->
+
+        <section id="popular-artists">
+            <h2><b>Popular Artists</b></h2>
+            <div id="singer">
+                <div>
+                    <a href="./playlist.html"><img src="./assets/eddp.png"></a>
+                    <b>Ed Sheeran</b>
+                </div>
+                <div>
+                    <a href="./playlist.html"><img src="./assets/justindp.png"></a>
+                    <b>Justin Bieber</b>
+                </div>
+                <div>
+                    <a href="./playlist.html"><img src="./assets/bebedp.png"></a>
+                    <b>Bebe</b>
+                </div>
+                <div>
+                    <a href="./playlist.html"><img src="./assets/coldplay.png"></a>
+                    <b>Cold Play</b>
+                </div>
+                <div>
+                    <a href="./playlist.html"><img src="./assets/rajakumari.png"></a>
+                    <b>Raja Kumari</b>
+                </div>
+                <div>
+                    <a href="./playlist.html"><img src="./assets/camiladp.png"></a>
+                    <b>Lady Gaga</b>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- STATIONS SECTION -->
+
+        <section id="radio">
+            <h2><b>Radio Station</b></h2>
+            <div id="stations">
+                <div id="radio-single-container">
+                    <a href="./playlist.html"><img src="./assets/loveplay.png" style="opacity: 0.7;"></a>
+                    <span style="font-size: 2.01rem; font-family: monospace;">Love</span>
+                </div>
+                <div id="radio-single-container">
+                    <a href="./playlist.html"><img src="./assets/retro.png" style="opacity: 0.7;"></a>
+                    <span style="font-size: 2.01rem; font-family: monospace;">Retro</span>
+                </div>
+                <div id="radio-single-container">
+                    <a href="./playlist.html"><img src="./assets/workout.png" style="opacity: 0.7;"></a>
+                    <span style="font-size: 2.01rem; font-family: monospace;">Workout</span>
+                </div>
+                <div id="radio-single-container">
+                    <a href="./playlist.html"><img src="./assets/chill.png" style="opacity: 0.7;"></a>
+                    <span style="font-size: 2.01rem; font-family: monospace;">Chill</span>
+                </div>
+                <div id="radio-single-container">
+                    <a href="./playlist.html"><img src="./assets/pop.jpg" style="opacity: 0.7;"></a>
+                    <span style="font-size: 2.01rem; font-family: monospace;">Pop</span>
+                </div>
+                <div id="radio-single-container">
+                    <a href="./playlist.html"><img src="./assets/rock.jpg" style="opacity: 0.7;"></a>
+                    <span style="font-size: 2.01rem; font-family: monospace;">Rock</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- IMAGE SECTION -->
+
+        <section id="playlist-form">
+            <div id="play">
+                <a href="./playlist.html"><div id="play-image"><img src="./assets/party.png"></a>
+                    <span style="font-size: 2.2em; font-family: monospace;">Party</span>
+                    <!-- <span id="Party">Party</span> -->
+                </div>
+                <a href="./playlist.html"><div id="play-image"><img src="./assets/electronic.png"></a>
+                    <span style="font-size: 2.2em; font-family: monospace;">Electronic</span><!-- <span class="Party">Romantic</span> -->
+                </div>
+                <a href="./playlist.html"><div id="play-image"><img src="./assets/roadtrip.png"></a>
+                    <span style="font-size: 2.2em; font-family: monospace;">RoadTrip</span><!-- <span class="Party">Wedding</span> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- THEME SECTION -->
+
+        <section id="theme">
+            <h2><b>Song Themes</b></h2>
+            <div id="themes">
+                <a href="./playlist.html"><div id="theme-image"><img src="./assets/theme1.jpg"></div></a>
+                <a href="./playlist.html"><div id="theme-image"><img src="./assets/theme2.jpg"></div></a>
+                <a href="./playlist.html"><div id="theme-image"><img src="./assets/theme3.jpg"></div></a>
+                <a href="./playlist.html"></a> <div id="theme-image"><img src="./assets/theme4.jpg"></div></a>
+            </div>
+        </section>
+
+
+        <!-- english songs -->
+
+
+        <section id="latest-english">
+            <h2><b>Latest English Songs</b></h2>
+            <div id="english">
+                <div id="eng"><img src="./assets/english1.jpg">
+                    <div id="overlay">
+                        <a href="./playlist.html"><i class="fa fa-play-circle"></i></a>
+                    </div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">Shut Up</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">G-Eazy</span>
+                    </div>
+                </div>
+                <div id="eng"><img src="./assets/english2 fifth harmony.jpg">
+                    <div id="overlay"><a href="./playlist.html"><i class="fa fa-play-circle"></i></a>
+                    </div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">Fifth Harmony</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">Joshua Coleman</span>
+                    </div>
+                </div>
+                <div id="eng"><img src="./assets/english3 what if.jpg">
+                    <div id="overlay"><a href="./playlist.html"><i class="fa fa-play-circle"></i></a></div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">What If</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">Jonny Orlando</span>
+                    </div>
+                </div>
+                <div id="eng"><img src="./assets/english 4 chix-tape tory lanez.jpg">
+                    <div id="overlay"><a href="./playlist.html"><i class="fa fa-play-circle"></i></a></div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">Chix Tape</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">Tory Lanez</span>
+                    </div>
+                </div>
+                <div id="eng"><img src="./assets/english 5 Faded Alan Walker.jpg">
+                    <div id="overlay"><a href="./playlist.html"><i class="fa fa-play-circle"></i></a></div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">Faded</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">Alan Walker</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- hindi songs -->
+
+        
+        <section id="latest-hindi">
+            <h2><b>Latest Hindi Songs</b></h2>
+            <div id="english">
+                <div id="hindi"><img src="./assets/latestHindi1.png">
+                    <div id="overlay"><a href="./playlist.html"><i class="fa fa-play-circle"></i></a></div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">Odhani</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">Neha Kakkar</span>
+                    </div>
+                </div>
+                <div id="hindi"><img src="./assets/latestHindi2.png">
+                    <div id="overlay"><a href="./playlist.html"><i class="fa fa-play-circle"></i></a></div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">Gungroo</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">Amit Trivedi</span>
+                    </div>
+                </div>
+                <div id="hindi"><img src="./assets/latestHindi3.png">
+                    <div id="overlay"><a href="./playlist.html"><i class="fa fa-play-circle"></i></a></div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">Kaise Hua</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">Arjit Singh</span>
+                    </div>
+                </div>
+                <div id="hindi"><img src="./assets/latestHindi4.png">
+                    <div id="overlay"><a href="./playlist.html"><i class="fa fa-play-circle"></i></a></div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">Namo Namo</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">Amit Trivedi</span>
+                    </div>
+                </div>
+                <div id="hindi"><img src="./assets/hindisong5.jpg">
+                    <div id="overlay"><a href="./playlist.html"><i class="fa fa-play-circle"></i></a></div>
+                    <div id="name-box " style="justify-content:flex-start;">
+                        <span style="font-size: 100%; font-weight:100; font-family: sans-serif; color:white;">Gendha Phool</span>
+                    </div>
+                    <div id="name-box" style="justify-content: flex-start;">
+                        <span style="font-size: 98%; font-weight: 100; font-family: sans-serif; color: darkgray;">Badshash</span>
+                    </div>
+                </div>
+            </div>
+            <div class="end"></div>
+        </section>
+    </main>
+</body>
+
+</html>

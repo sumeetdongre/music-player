@@ -348,15 +348,11 @@ aside h3{
 
 #queueno{
 
-position: absolute;
+	position: absolute;
+	left: 75%;
+	margin-top: 20px;
 
-/* top: 45%; */
-
-left: 75%;
-
-margin-top: 20px;
-
-color: antiquewhite;
+	color: antiquewhite;
 }
 
 #queue-image img{
@@ -508,8 +504,7 @@ color: antiquewhite;
 
 .bottom-music-player-image{
 	    width: 21%;
-	    height: 36%;
-	
+	    height: 36%;	
 }
 
 
@@ -517,140 +512,6 @@ color: antiquewhite;
 	margin: -1px;
 }
 
-
-
-
-
-/*the various listed tracks of the same band*/
-
-#tracks{
-	height:60%;
-	width:64%;
-	display:flex;
-	flex-direction: column;
-	margin-left:145px;
-
-}
-
-#single-track{
-    width: 89%;
-    height: 12%;
-    margin: 0.5%;
-    padding-bottom: 15px;
-    background-color: #1A1E33;
-}
-
-#single-track:hover{
-	box-shadow:  0 0 5px black;
-	background-color: black;
-}
-
-
-#track-no{
-	left:2%;
-	color:#908a90f7;
-}
-
-#track-image img{
-	margin-left:2%;
-    margin-top:1%;
-	height:40px;
-	width: 50px;
-}	
-
-#trackname{
-	color:white;
-	margin-left:3%;
-	font-size: 15px;
-	font-style: bold;
-	font-weight: 10px;
-}
-
-/*Heart icon*/
-#heart-track{
-	color:#908a90f7;
-	margin-left:53%;
-	height:25px;
-	width:30px;
-}
-
-#heart-track i:hover{
-	color: white;
-}
-
-#plus-track i:hover{
-	color:white;
-}
-
-/*Plus icon*/
-#plus-track{
-	color:#908a90f7;
-	margin-left:7%;
-	height:25px;
-	width:30px;
-}
-
-#end{
-	height:120px;
-}
-
-#latest{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	top:55%;
-	height:60%;
-	width:35%;
-	margin-top:58px;
-	margin-left:1000px;
-	margin-bottom:20px;
-	margin-right:5px;
-}
-
-
-#player{
-	
-	height: 80px;
-    width: 200px;
-    margin-bottom: 2%;
-    margin-left: 9em;
-    margin-top: 21%;
-}
-
-#song-image{
-	margin:5px;
-	margin-left:0.5%;
-	height:70px;
-	width:70px;
-	box-shadow: 1px 1px 2px white,0 0 12px lightgrey, 0 0 5px black;
-}
-
-#name{
-	position: absolute;
-	color:white;
-	font-weight: 5px;
-	margin:1%;
-}
-
-#date{
-	position: absolute;
-	color:#908a90f7;
-	margin:0.5%;
-	margin-top:-3%;
-	margin-left:7%; 
-	font-weight: 1px;
-	font-size:0.7rem;
-	
-}
-
-#time{
-	color:#908a90f7;
-	position: absolute;
-	margin:1%;
-	margin-left:10%;
-	
-	font-size:10px;
-}
 
 /* stations csss */
 

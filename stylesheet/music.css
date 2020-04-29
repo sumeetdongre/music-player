@@ -7,7 +7,6 @@ body{
 
 #ninja-icon{
 	margin:5px 30px;
-	/* top: 25%; */
 	height: 129px;
 	width: 245px;
 }
@@ -53,7 +52,6 @@ body{
     width: 901px;
     display: flex;
     overflow-x: auto;
-    /* scroll-behavior: smooth; */
     -webkit-overflow-scrolling: touch;
     z-index: 0;
     margin-top: -13px;
@@ -81,7 +79,6 @@ body{
 section h2{
 	color:white;
 	margin-left: 10%;
-	/* margin-right: -20px; */
 }
 
 #latest-release-container{
@@ -202,24 +199,19 @@ section h2{
 #themes{
 	background-color:#0B1026;
 	display:flex;
-	/* flex-wrap:wrap; */
-	/* height:90px; */
 	width: 62%;
 	justify-content: space-around;
 	margin:8px;
-	/*padding: 6px;*/
 	margin-top:3%;
 	margin-left:10%;
-	/* margin-right: 42px; */
+
 }
 
 #theme-image img{
-
-	/*position: absolute;*/
+	
 	height:160px;
 	width:224px;
 	margin:1%;
-	/*padding:50px;*/
 	box-shadow:0 0 8px lightgrey, 0 0 5px black;
 	z-index:1;
 }
@@ -228,7 +220,6 @@ section h2{
 	color:white;
 	font-size: 30px;
 	overflow:hidden;
-	/*z-index:1;*/
 
 }
 
@@ -314,13 +305,10 @@ section h2{
 
 #hindi img{
 	
-vertical-align: top;
-	
-height:160px;
-	
-width:160px;
-	
-margin: 1%;
+	vertical-align: top;
+	height:160px;
+	width:160px;
+	margin: 1%;
 }
 .end{
 	height:100px;
@@ -331,8 +319,6 @@ margin: 1%;
 aside{
 	width:10%;
 	float:left;
-	/* display: flex;
-	flex-direction: column; */
 }
 
 
@@ -343,7 +329,6 @@ aside h3{
 	font-weight: 10px;
 	position: absolute;
 	top: 18%;
-	/* width:21%; */
 	left: 78%;
 	font-size: 25px;
 }
@@ -354,7 +339,7 @@ aside h3{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	/* flex-wrap: wrap; */
+
 	margin-top: 39%;
 	margin-bottom: 23px;
 	margin: 50%;
@@ -376,22 +361,15 @@ color: antiquewhite;
 
 #queue-image img{
 	position: absolute;
-	/*top:28%;*/
 	left: 77%;
 	height: 60px;
-	/* width: 35px;
-	box-shadow: 1px 1px 2px white,0 0 18px lightgrey, 0 0 5px black; */
-	/* display: flex; */
 	width: 78px;
 }	
 
 #songname{
 	color:white;
 	position:absolute;
-	/* display: flex; */
-	/*top:28%;*/
 	left: 83%;
-	/* font-size: 15px; */
 	font-style: bold;
 	font-weight: 10px;
 	margin-top: 22px;
@@ -400,10 +378,7 @@ color: antiquewhite;
 #heart-icon{
 	color:#908a90f7;
 	position: absolute;
-	/*top:28%;*/
 	left: 95%;
-	/* height: 18px; */
-	/* width: 30px; */
 	margin-top: 16px;
 }
 
@@ -421,7 +396,6 @@ color: antiquewhite;
 
 .bottom-music-player{
 	position: fixed;
-	/* display: flex; */
 	bottom: 0px;
 	left: 0%;
 	width: 100%;
@@ -436,22 +410,20 @@ color: antiquewhite;
 .bottom-music-player .container-2{
 	display: flex;
 	justify-content: center;
-	/* flex: 2; */
-	/* background-color: orange; */
+	
 	height: 100%;
 }
 
 
 .bottom-music-player .container-1{
 	flex: 1;
-	/* background-color: #8c808b12; */
+
 	height: 100%;
 }
 
 
 .bottom-music-player .container-3{
 	flex: 1;
-	/*background-color: grey;*/
 	display: flex;
 	flex-direction: row;
 	height: 100%;
@@ -464,7 +436,6 @@ color: antiquewhite;
 
 .bottom-music-player-play-icons{
 	height: 59%;
-	/* width: 100%; */
 	display: flex;
 	justify-content: center;
 
@@ -517,7 +488,6 @@ color: antiquewhite;
 }
 .bottom-music-player-name{
 	width: 50%;
-	/* height: 100%; */
 	display: flex;
 	flex-direction: column;
 }
@@ -528,7 +498,6 @@ color: antiquewhite;
 
 .bottom-music-player-sub-middle{
 	display: flex;
-	/* align-items: center; */
 	margin-top: -75px;
 	margin-bottom: -4px;
 	margin-right: 56%;
@@ -538,30 +507,6 @@ color: antiquewhite;
 }
 
 .bottom-music-player-image{
-	    /* display: flex; */
-	    width: 21%;
-	    height: 36%;
-	    /* align-items: baseline; */
-	    /* border-radius: 22%; */
-}
-
-
-.bottom-music-player-name div{
-	margin: -1px;
-}
-.bottom-music-player-sub-middle{
-	display: flex;
-	/* align-items: center; */
-	margin-top: -75px;
-	margin-bottom: -4px;
-	margin-right: 56%;
-	
-	width: 32%;
-
-}
-
-.bottom-music-player-image{
-	
 	    width: 21%;
 	    height: 36%;
 	
@@ -573,161 +518,21 @@ color: antiquewhite;
 }
 
 
-/* ------------------------playlistcss--------------------------- */
 
 
-/*the main image of song currently being played*/
-
-#main-image{
-	display: inline-block;
-	margin:1%;
-	margin-left: 1rem;
-	margin-right:0;
-
-}
-
-
-#main-image{
-	display: inline-block;
-	margin:1%;
-	margin-left: 1rem;
-	margin-right:0;
-	/*height:600px;
-    width:600px;*/
-}
-
-/*The div right next to image containing required information*/
-
-#song-info{
-	display: inline-block;
-	/*overflow-wrap: break-word;*/
-	height:300px;
-	width:524px;
-	margin-left:0;
-	background-color: #1A1E33;
-	/*word-wrap: break-word;*/
-	overflow-wrap:break-word;
-}
-
-#song-info h2{
-	position:absolute;
-	margin-left:1%;
-	margin-top:3%;
-	color:white;
-}
-
-#followers{
-	position:absolute;
-	color:#908a90f7;
-	margin-top:3.3%;
-	margin-left:20%;
-	font-size: 15px;
-}
-
-.band-name{
-	position: absolute;
-	color:#908a90f7;
-	margin-top:5.5%;
-	margin-left:1.5%;
-	font-size: 18px;
-}
-
-#para{
-	position: absolute;
-	color:#908a90f7;
-	margin-top:7.5%;
-	margin-left:1.5%;
-	font-size:13px;
-	line-height:15px;
-}
-
-#para1{
-	position: absolute;
-	color:#908a90f7;
-	margin-top:9%;
-	margin-left:1.5%;
-	font-size:13px;
-	line-height:15px;
-
-}
-
-#para2{
-	position: absolute;
-	color:#908a90f7;
-	margin-top:10.5%;
-	margin-left:1.5%;
-	font-size:13px;
-	line-height:15px;
-
-}
-
-/*Play-All Button*/
-
-#play-all{
-	position: absolute;
-	margin-top:15%;
-	height:30px;
-	width:120px;
-	margin-left:1.5%;
-	/*background-color:red;*/
-	/*background-color:linear-gradient(pink,purple,violet);*/
-	background-image:linear-gradient(#ef33a2,#be0ee8,#5b086f);
-	margin:black;
-	padding:0;
-	color:white;
-}
-
-#to-follow{
-	position:absolute;
-	margin-top:15.5%;
-	margin-left:15%;
-	color:#9f9ba0;
-}
-
-#to-follow:hover{
-	text-decoration: underline;
-}
-
-#composure{
-	position:absolute;
-	margin-top:18%;
-	margin-left:1.5%;
-	color:#9f9ba0;
-	font-size:12px;
-}
-
-#music-player{
-	position: fixed;
-	bottom:0;
-	width:100%;
-	background-color:black;
-	z-index: 3;
-}
-
-#player-image{
-	display:table;
-	position: relative;
-	margin:auto;
-	height:70px;
-	width:60%;
-}
 
 /*the various listed tracks of the same band*/
 
 #tracks{
 	height:60%;
 	width:64%;
-/*margin-left:2%;*/
-	/*background-color:yellow;*/
 	display:flex;
-	/*flex-wrap:wrap;*/
 	flex-direction: column;
 	margin-left:145px;
 
 }
 
 #single-track{
-	/*position:absolute;*/
     width: 89%;
     height: 12%;
     margin: 0.5%;
@@ -780,9 +585,6 @@ color: antiquewhite;
 /*Plus icon*/
 #plus-track{
 	color:#908a90f7;
-	/*position: absolute;*/
-	/*margin-top:-1%;*/
-	/*top:28%;*/
 	margin-left:7%;
 	height:25px;
 	width:30px;
@@ -828,7 +630,6 @@ color: antiquewhite;
 	color:white;
 	font-weight: 5px;
 	margin:1%;
-	/*margin-top:60%;*/
 }
 
 #date{
@@ -859,12 +660,9 @@ color: antiquewhite;
 
 #stations{
     display: flex;
-    /* flex-wrap: wrap; */
      height: 106px;
-    width: 60%;
- 
-    margin: 8px;
-    /* padding: 6px; */
+    width: 60%; 
+    margin: 8px; 
     margin-top: 4%;
 	margin-left: 9%;
 	margin-bottom: -4%;
@@ -873,13 +671,11 @@ color: antiquewhite;
 
 #radio-single-container img{
 
-	/*position: absolute;*/
+
     height: 120px;
     width: 120px;
-	margin:1%;
-	/*padding:50px;*/
+	margin:1%;	
 	box-shadow:0 0 8px lightgrey, 0 0 5px black;
-	/* z-index:1; */
 	border-radius: 98px;
 
 }
@@ -891,13 +687,12 @@ color: antiquewhite;
 	justify-content: center;
 	width: 17%;
 	height: 100%;
-	/*background-color: orange;*/
+	
 }
 
 #radio-single-container span{
 	position: absolute;
 	width: 100%;
-	/*background-color: blue;*/
 	text-align: center;
 	color: white;
 }
@@ -908,24 +703,18 @@ color: antiquewhite;
 #play{
 
 	display:flex;
-	
-	/*height:90px;*/
 	width:59%;
 	justify-content: space-between;
     margin:8px;
-    /*padding: 6px;*/
     margin-top:10%;
 	margin-left:10%;
 	margin-bottom: -5%;
 }
 
-#play-image img{
-
-	/*position: absolute;*/
+#play-image img{	
 	height:145px;
 	width:270px;
 	overflow: hidden;
-	/*padding:50px;*/
 	box-shadow:0 0 8px lightgrey, 0 0 5px black;
 	z-index:1;
 
@@ -944,20 +733,15 @@ color: antiquewhite;
 
 }
 #play-image span{
-
     text-align: center;
-    /* color: white; */
     top: 33%;
     z-index: 1;
     position: absolute;
     margin-left: -73%;
-
-
 }
 
 
 #name-box{
-	/*background-color: blue;*/
 	display: flex;
 	width:  100%;
 	justify-content: center;

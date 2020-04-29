@@ -2,6 +2,7 @@ body{
 	background-color: #0b1026;
 	font-family: Arial;
 }
+/* header */
 
 #ninja-icon{
 	margin: 9px 54px;
@@ -10,7 +11,9 @@ body{
 	width: 259px;
 }
 
-#Favourites{position: absolute;text-align: center;top: 29px;left: 21%;font-size: 1.4rem;word-spacing: 11px;color:white;}
+#Favourites{
+	position: absolute;text-align: center;top: 29px;left: 21%;font-size: 1.4rem;word-spacing: 11px;color:white;
+}
 
 #noti-btn i{
     position: absolute;
@@ -54,12 +57,10 @@ aside{
 	margin-left: 59%;
 	margin-bottom: 31px;
 	margin-right: 19px;
-	/* top: 7px; */
 }
 
 #queueno{
 	position: absolute;
-	/* top:28%; */
 	left: 72%;
 	margin-top: 19px;
 	color:#908a90f7;
@@ -67,22 +68,16 @@ aside{
 
 #queue-image img{
 	position: absolute;
-	/* display: flex; */
-	/* flex-direction: column; */
-	/* top:28%; */
 	left: 74%;
 	height: 80px;
-	width: 80px;
-	/* box-shadow: 1px 1px 2px white,0 0 18px lightgrey, 0 0 5px black; */
+	width: 80px;	
 }	
 
 #songname{
 	color:white;
 	position:absolute;
-	/* top: 51%; */
 	left: 80%;
 	margin-top: 25px;
-	/* font-size: 15px; */
 	font-style: bold;
 	font-weight: 10px;
 }
@@ -90,7 +85,6 @@ aside{
 #heart-icon{
 	color:#908a90f7;
 	position: absolute;
-	/*top:28%;*/
 	left: 92%;
 	height: 28px;
 	width:30px;
@@ -116,8 +110,7 @@ aside{
 	margin:1%;
 	margin-left: 1rem;
 	margin-right:0;
-	/*height:600px;
-    width:600px;*/
+	
 }
 
 
@@ -590,7 +583,6 @@ margin-top: 21%;
 	    height: 36%;
 	 
 }
-
 
 .bottom-music-player-name div{
 	margin: -1px;
